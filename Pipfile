@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+matplotlib = "*"
+torchvision = "*"
+torchaudio = "*"
+cryptocompare = "*"
+plotly = "*"
+nbformat = "*"
+torchviz = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
